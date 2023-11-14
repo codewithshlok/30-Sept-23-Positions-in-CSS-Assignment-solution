@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(39 36 36);
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 20px 10px;
+    width: 100vw;
+    height: 35px;
+    margin: auto;
+    
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 28px 29px;
+    color: white;
+}
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 28px 29px
+}
+nav a, button{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.347);
+    margin: 0 35px;
+    padding: 9px;
+    font-family: cursive;
+}
+.active{
+    color: white;
+}
+button{
+    background: none;
+    border: 2px solid rgb(255, 196, 0);
+    border-radius: 9px;
+    padding: 8px;
+}
+section{
+    padding: 10px 12px;
+}

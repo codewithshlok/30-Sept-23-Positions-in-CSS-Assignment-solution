@@ -1,0 +1,13 @@
+Problem Statement
+Explain the difference between Absolute and Relative positionin.
+solution-
+Absolute Positioning: 1. Syntax {postiton:absolute;}.
+2. It is used to move an element from its normal postiton in the document by specifying a pixel value for top, bottom, left, or right.
+3. It will not breake the normal document flow postiton the element on the page.
+4.The element will leave the space at its original position and other content will not be adjusted to fit into any gap left by the element.
+
+Relative Positioning: 1. Syntax {position:relative;}.
+2. with absolute positioning , an element is positioned relative to its nearest positioned ancestor.
+3. It will breake the normal document flow to position the element on the page.
+4. The element will not leave any space in its original position.
+5. If there is no positioned parent, it's positioned relative to the initial containing block (usually the viewport).
